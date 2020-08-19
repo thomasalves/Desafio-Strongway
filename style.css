@@ -95,7 +95,7 @@
         display: block;
     }
     
-    .container {
+    .card {
         border-top: .8rem solid gray;
         width: 70vw;
         height: 75vh;
@@ -103,7 +103,8 @@
         justify-content: center;
         align-content: center;
         box-sizing: border-box;
-        background: white
+        background: white;
+        box-shadow: 5px 5px 5px rgb(167, 167, 167);
     }
     
     .main {
