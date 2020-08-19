@@ -1,0 +1,101 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: 0;
+    }
+    /*  HEADER*/
+    
+    img {
+        width: 15vw;
+        height: 15h;
+        ;
+    }
+    
+    .menu {
+        background-color: black;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .menu li {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: black;
+    }
+    /*  HEADER*/
+    
+    .cinza {
+        background: gray;
+        width: 100vw;
+        display: block;
+        height: 2vh;
+    }
+    /* Side Menu */
+    
+    .sideMenu h1 {
+        margin: 1rem;
+    }
+    
+    .title {
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+    
+    .sideMenu {
+        width: 30vw;
+        height: 41.83vh;
+        margin: 1rem;
+        padding: 0;
+        float: left;
+        box-shadow: 2px 5px 5px rgb(167, 167, 167);
+    }
+    
+    .sideMenu ul li {
+        margin: 1rem auto;
+        padding: 0px;
+        border-bottom: 1px solid #CCC;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .sideMenu a:link {
+        margin-left: .8rem;
+        font-size: 1rem;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 8px;
+        display: block;
+    }
+    
+    .main {
+        display: flex;
+    }
+    
+    .main h1 {
+        margin: 1rem 1.5rem;
+    }
+    
+    .main p {
+        text-align: justify;
+        margin: auto 1.5rem;
+    }
+    
+    .main button {
+        background-color: rgb(197, 0, 0);
+        color: white;
+        width: 10vw;
+        height: 5vh;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        margin: auto 1.5rem;
+    }
