@@ -4,20 +4,43 @@
         box-sizing: border-box;
         outline: 0;
     }
+    
+    body {
+        background: #CCC
+    }
     /*  HEADER*/
     
     img {
-        width: 15vw;
-        height: 15h;
-        ;
+        width: 10vw;
+        height: 5vh;
+        display: flex;
     }
     
     .menu {
         background-color: black;
         height: 15vh;
         display: flex;
+        justify-content: center;
+    }
+    
+    .root {
+        width: 70vw;
+        display: flex;
         align-items: center;
-        justify-content: space-around;
+    }
+    
+    .col.img {
+        width: 17vw;
+    }
+    
+    .col {
+        width: 10vw;
+        height: 15vh;
+        display: flex;
+        border-right: 1px solid rgba(255, 255, 255, 0.267);
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
     
     .menu li {
@@ -30,13 +53,6 @@
         color: white;
     }
     /*  HEADER*/
-    
-    .cinza {
-        background: gray;
-        width: 100vw;
-        display: block;
-        height: 2vh;
-    }
     /* Side Menu */
     
     .sideMenu h1 {
@@ -48,12 +64,14 @@
     }
     
     .sideMenu {
+        box-sizing: border-box;
         width: 30vw;
         height: 41.83vh;
         margin: 1rem;
         padding: 0;
         float: left;
         box-shadow: 2px 5px 5px rgb(167, 167, 167);
+        border-radius: 15px;
     }
     
     .sideMenu ul li {
@@ -77,8 +95,21 @@
         display: block;
     }
     
+    .container {
+        border-top: .8rem solid gray;
+        width: 70vw;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        box-sizing: border-box;
+        background: white
+    }
+    
     .main {
         display: flex;
+        height: 78vh;
+        justify-content: center;
     }
     
     .main h1 {
@@ -99,4 +130,12 @@
         border: none;
         border-radius: 10px;
         margin: auto 1.5rem;
+    }
+    
+    footer {
+        display: flex;
+        text-align-last: center;
+        justify-content: center;
+        font-weight: regular;
+        color: rgb(77, 77, 77);
     }
